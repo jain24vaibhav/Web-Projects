@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html la!ng="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css" class="css">
+  <title>Title</title>
+
+  <style>
+
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about{
+  text-align: justify;
+   text-justify: inter-word;
+}
+
+.techno{
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+  height: 5vh;
+
+}
+
+.jmb-about{
+  padding-top:0px;
+    background-color: skyblue;
+}
+
+.jmb-head{
+  padding: 30px;
+  background-color: skyblue;
+}
+
+.logo{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.dot{
+  color: orange;
+  font-size: 100px;
+  padding-top: 0px;
+}
+hr{
+  height: 10px;
+  width: 35%;
+}
+
+.socialjumbo{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.hr-lang{
+  width: 50%;
+}
+
+.jmb-tech{
+  background-color: skyblue;
+}
+
+.tech{
+  border-left:2px solid white;
+    border-right:2px solid white;
+  padding: 20px 40px;
+}
+
+.box{
+  text-align: center;
+
+}
+
+@media (min-width: 300px) {
+      .rounded-circle{
+         width:50%;
+      }
+      .imgclass{
+        font-size: 20px;
+      }
+      h3{
+        font-size: 16px;
+      }
+      .about{
+        font-size: 25px;
+      }
+      .tused{
+        font-size: 22px;
+        padding-top: 0px;
+      }
+      h4{
+        font-size: 16px;
+      }
+      .languages{
+        text-align: right;
+        font-size: 12px;
+      }
+      .tech{
+        border-bottom: 2px solid white;
+      }
+      .logo{
+        width:40px;
+        height: 40px;
+      }
+      .social{
+        width:40px;
+        heigth:40px;
+        margin:8px;
+      }
+}
+
+
+@media (min-width: 768px) {
+  .rounded-circle{
+     width:80%;
+  }
+  .imgclass{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .about{
+    font-size: 30px;
+  }
+  .tused{
+    font-size: 30px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .languages{
+    text-align: right;
+    font-size: 16px;
+  }
+  .tech{
+    border-bottom: none;
+  }
+  .logo{
+    width:50px;
+    height: 50px;
+  }
+  .social{
+    width:50px;
+    heigth:50px;
+    margin:8px;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  .rounded-circle{
+     width:90%;
+  }
+  .imgclass{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  .about{
+    font-size: 30px;
+  }
+  .tused{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .languages{
+    text-align: right;
+    font-size: 18px;
+  }
+  .tech{
+    border-bottom: none;
+  }
+  .logo{
+    width:55px;
+    height: 55px;
+  }
+  .social{
+    width:65px;
+    heigth:65px;
+    margin:8px;
+  }
+ }
+
+
+@media (min-width: 1200px) {
+  .rounded-circle{
+     width:80%;
+  }
+  .imgclass{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .about{
+    font-size: 32px;
+  }
+  .tused{
+    font-size: 28px;
+      padding-top: 0px;
+  }
+  h4{
+    font-size: 24px;
+  }
+  .languages{
+    text-align: right;
+    font-size: 22px;
+  }
+  .tech{
+    border-bottom: none;
+  }
+  .logo{
+    width:60px;
+    height: 60px;
+
+  }
+  .social{
+    width:80px;
+    heigth:80px;
+    margin:8px;
+  }
+}
+  </style>
+</head>
+
+
+<body>
+  <!-- navbar-->
+  <div class="jumbotron jmb-head">
+    <div class="row text-center ">
+      <div class="col-4 coledit">
+      <a href="#">  <h3>Home</h1></a>
+      </div>
+      <div class="col-4  coledit">
+        <a href="#c1"><h3>About</h1></a>
+      </div>
+      <div class="col-4 col-md-4 col-sm-4 col-xs-4 coledit">
+      <a href="#c2">  <h3>Contact</h1> </a>
+      </div>
+    </div>
+  </div>
+
+  <!--photo-->
+  <div class="row justify-content-center">
+    <div class="col-md-4 col-sm-6 col-lg-3 text-center">
+      <img  class="rounded-circle imgclass" src="images/vj.jpeg" alt="">
+      <br><br>
+      <h1>Vaibhav Jain</h1>
+      <h6>Wanna Be Entrepreneur!</h6>
+    </div>
+  </div>
+  <hr>
+
+  <!--designer-->
+  <div class="row">
+    <div class="col-12 text-center ">
+      <h3 class="imgclass">Designer * Coder * Developer</h3>
+    </div>
+  </div>
+  <br><br>
+
+  <!--about me -->
+  <div id="c1" class="jumbotron jmb-about about">
+
+    <div class="col">
+      <h1 class="about"><u>About Me</u> <span class="dot">.</span></h1><br>
+      <h3>Hey folks ! <br>I am Vaibhav Jain, 4th year undergrad and wanna be entrepreneur from Indore. Current pursuing B.E. from "Shri Vaishnav Institute of Technology & Science". I have great interest in Music and Technology. I like to learn about developing field of Science and also love to ineract with new people. </h3>
+    </div>
+
+</div>
+
+  <!--languages -->
+  <div class="col tech">
+    <div class="jumbotron text-center techno">
+      <h1 class="tused">TECHNOLOGIES USED.</h1><br>
+    </div>
+
+          <h4>Programming Languages :</h4>
+          <div class="box">
+            <img src="images/c.png" class="logo" alt="">
+            <img src="images/cpp.png" class="logo" alt="">
+            <img src="images/java.png"class="logo" alt="">
+          </div>
+
+              <hr align="right" class="hr-lang">
+
+              <h4>Web Technologies :</h4>
+              <div class="box">
+                <img src="images/html.png" class="logo" alt="">
+                <img src="images/css.png" class="logo" alt="">
+                <img src="images/bootstrap.png"class="logo" alt="">
+              </div>
+
+                  <hr align="right" class="hr-lang">
+
+                  <h4>Designing & Editing :</h4>
+                  <div class="box">
+                    <img src="images/photoshop.png" class="logo" alt="">
+                    <img src="images/illustrator.png" class="logo" alt="">
+                    <img src="images/corel.png" class="logo" alt="">
+                  </div>
+
+          <hr align="right" class="hr-lang">
+                  <h4>Database Connectivity :</h4>
+                  <div class="box">
+                    <img src="images/mysql.png" class="logo" alt="">
+
+                  </div>
+
+                      <hr align="right" class="hr-lang">
+    </div>
+
+  <!--contact -->
+  <div id="c2" class="jumbotron text-center socialjumbo">
+
+          <h1 class="tused">CONTACT<span >.</span></h1>
+            <h5 style="color:grey">jain24.vaibhav@gmail.com</h5>
+          <div>
+            <a href="https://www.linkedin.com/in/jain24vaibhav/">  <img class="social" src="images/linkedin.png"></a>
+            <a href="https://www.facebook.com/jain24.vaibhav"><img class="social" src="images/facebook.png"   ></a>
+            <a href="https://www.instagram.com/engineer_chora/" ><img class="social" src="images/instagram.png"  alt=""></a>
+            <a href="#"> <img class="social" src="images/twitter.png" alt=""></a>
+            <a href="https://plus.google.com/+VaibhavJain24"> <img class="social" src="images/google.png"></a>
+          </div>
+  </div>
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</htm
